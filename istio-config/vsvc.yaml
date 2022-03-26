@@ -11,7 +11,7 @@ spec:
     - route:
       - destination:
           host: flaskapp.prod.svc.cluster.local 
-        weight: 50
+        weight: 20
       - destination:
           host: flaskapp.stage.svc.cluster.local
-        weight: 50
+        weight: 80
