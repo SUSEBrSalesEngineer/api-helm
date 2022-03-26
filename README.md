@@ -6,6 +6,8 @@ Inspirado no artigo do Medium em [Link](https://medium.com/infinite-lambda/canar
 
 <blockquote><i>obs: A imagem utilizada nesse exemplo está desatualizada.</i></blockquote>
 
+### Foi criado uma imagem contendo uma API simples usando o Flask para essa demonstração
+O tutorial seguido para criar a imagem foi a partir desse [Link](https://medium.com/nerd-for-tech/deploy-your-flask-rest-api-on-docker-909f5cfa8b0b) e encontra-se no Docker Hub com o nome de gabriellins/book-api. Veja o [link](https://hub.docker.com/repository/docker/gabriellins/book-api)
 
 **Esse código contem os seguintes conteúdos**
 
