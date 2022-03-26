@@ -80,5 +80,8 @@ spec:
 ---
 O arquivo de gateway aplica uma política de escuta ao controlador de entrada istio, enquanto o virtualservice mapeia esse gateway com os serviços aos quais gostaríamos de distribuir o tráfego.
 
+---
+Obs: Esse repositório pode ser adicionado dentro do marketplace, através dos respositórios no Rancher!
+
 **Criador**
 Nikolay Vaklinov
