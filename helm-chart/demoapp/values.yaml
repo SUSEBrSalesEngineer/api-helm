@@ -2,6 +2,7 @@ deployment:
   name: bookapi
   image: gabriellins/book-api
   tag: v1
-
+  imagePullPolicy: Always
+  
 svc:
   name: bookapi
