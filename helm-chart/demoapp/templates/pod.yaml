@@ -9,3 +9,4 @@ spec:
   containers:
   - name: {{ .Values.deployment.name }}{{ .Values.deployment.tag }}
     image: {{ .Values.deployment.image}}:{{ .Values.deployment.tag }}
+    imagePullPolicy: {{ .Values.deployment.imagePullPolicy}}
