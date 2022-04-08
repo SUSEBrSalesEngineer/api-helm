@@ -36,7 +36,8 @@ $ kubectl create -f istio-config/vsvc.yaml
 
 
 Se tudo ocorreu bem, você deve ser capaz de visualizar o gráfico no Kiali:
-![Screenshot](screenshot.png)
+
+![Exemplo](image/example.png)
 
 ---
 
