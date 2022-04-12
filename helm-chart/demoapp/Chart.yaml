@@ -1,4 +1,10 @@
 apiVersion: v2
 name: bookapi
-description: Um helm chart para o Kubernetes
+description: API da biblioteca do time de dev. Um helm chart para o Kubernetes
 version: 1.0
+home: https://github.com/SUSEBrSalesEngineer/api-helm
+icon: https://github.com/SUSEBrSalesEngineer/api-helm/blob/main/book-api.png
+keywords:
+  - aplicacao
+  - dev
+  - api
