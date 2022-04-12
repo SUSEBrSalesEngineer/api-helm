@@ -1,0 +1,12 @@
+FROM registry.suse.com/bci/python:3.6-12.53
+LABEL maintainer=glins
+
+RUN zypper -q ref -s
+RUN zypper -q install -y python3-pip
+RUN pip install --upgrade pip
+
+WORKDIR /app
+COPY . /app
+RUN pip --no-cache-dir install -r requirements.txt
+
+CMD ["python3", "app.py"]
