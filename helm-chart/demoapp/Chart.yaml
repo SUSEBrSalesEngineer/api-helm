@@ -3,7 +3,7 @@ name: bookapi
 description: Um helm chart para o Kubernetes
 version: 1.0
 home: https://github.com/SUSEBrSalesEngineer/api-helm/blob/13547fced971a6b93c5bcf26380ceab15f6d0ef8/README.md
-#icon: https://raw.githubusercontent.com/SUSEBrSalesEngineer/api-helm/d76753e6a93154cb9e11cd1e04c1174d41291573/book-api.png
+icon: https://raw.githubusercontent.com/SUSEBrSalesEngineer/api-helm/main/book-api.png
 keywords:
   - aplicacao
   - dev
