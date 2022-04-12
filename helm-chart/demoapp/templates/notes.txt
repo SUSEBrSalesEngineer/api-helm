@@ -1,5 +1,4 @@
 CHART NAME: {{ .Chart.Name }}
 CHART VERSION: {{ .Chart.Version }}
 APP VERSION: {{ .Chart.AppVersion }}
-
 kubectl get pods --namespace {{ .Release.Namespace }} -l app.kubernetes.io/instance={{ .Release.Name }}
