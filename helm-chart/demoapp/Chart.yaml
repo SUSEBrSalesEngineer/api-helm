@@ -3,7 +3,7 @@ name: bookapi
 description: API da biblioteca do time de dev. Um helm chart para o Kubernetes
 version: 1.0
 home: https://github.com/SUSEBrSalesEngineer/api-helm/blob/main/README.md
-icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+icon: https://ibb.co/JphHrx6
 keywords:
   - aplicacao
   - dev
