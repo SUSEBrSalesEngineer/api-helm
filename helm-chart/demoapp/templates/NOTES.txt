@@ -1,2 +1,7 @@
+
+Aplicação instalada com sucesso!
 CHART NAME: {{ .Chart.Name }}
 CHART VERSION: {{ .Chart.Version }}
+
+Para acessar o pod use:
+    kubectl get pods --namespace {{ .Release.Namespace }} -l app.kubernetes.io/instance={{ .Release.Name }}
