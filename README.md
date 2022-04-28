@@ -28,8 +28,8 @@ $ kubectl create namespace prod
 $ kubectl create namespace stage
 $ kubectl label namespace prod istio-injection=enabled
 $ kubectl label namespace stage istio-injection=enabled
-$ helm install demoapiv1 helm-chart/demoapp/ --wait --set deployment.tag=v1 --namespace stage
-$ helm install demoapiv2 helm-chart/demoapp/ --wait --set deployment.tag=v2 --namespace prod
+$ helm install demoapiv1 helm-chart/demoapp/ --wait --set deployment.tag=v1 --namespace prod
+$ helm install demoapiv2 helm-chart/demoapp/ --wait --set deployment.tag=v2 --namespace stage
 $ kubectl create -f istio-config/gateway.yaml
 $ kubectl create -f istio-config/vsvc.yaml
 ```
