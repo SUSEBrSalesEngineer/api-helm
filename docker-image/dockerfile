@@ -2,7 +2,6 @@ FROM registry.suse.com/bci/python:3.6-12.53
 LABEL maintainer=glins
 
 RUN zypper --gpg-auto-import-keys -q ref -s
-RUN zypper -n up
 RUN zypper -q install -y python3-pip
 RUN pip install --upgrade pip
 
