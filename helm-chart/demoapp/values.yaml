@@ -7,3 +7,4 @@ deployment:
   
 svc:
   name: bookapi
+  nodePort: 30123
