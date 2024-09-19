@@ -3,11 +3,12 @@ kind: Service
 metadata:
   name: {{ .Values.svc.name }}
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: {{ .Values.deployment.name }}
   ports:
     - protocol: TCP
       port: 80
       targetPort: 5000
+      nodePort: {{ .Values.svc.nodePort }}
       name: http
