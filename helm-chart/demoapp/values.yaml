@@ -3,6 +3,7 @@ deployment:
   image: gabriellins/book-api
   tag: v1
   imagePullPolicy: Always
+  namespace: demo-fleet
   
 svc:
   name: bookapi
