@@ -7,3 +7,4 @@ deployment:
   
 svc:
   name: bookapi
+  namespace: demo-fleet
