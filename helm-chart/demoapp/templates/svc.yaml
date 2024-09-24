@@ -9,5 +9,6 @@ spec:
     app: {{ .Values.deployment.name }}
   ports:
     - protocol: TCP
+      port: 80
       targetPort: 5000
       name: http
