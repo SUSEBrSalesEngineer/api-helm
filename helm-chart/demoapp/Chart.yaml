@@ -1,7 +1,12 @@
 apiVersion: v2
 name: bookapi
 description: Um helm chart para o Kubernetes
-version: 1.0
+version: 0.1
+appVersion: "1.0.0"
+maintainers:
+- email: galins@suse.com
+  name: Gabriel Lins
+type: application
 home: https://github.com/SUSEBrSalesEngineer/api-helm/blob/13547fced971a6b93c5bcf26380ceab15f6d0ef8/README.md
 icon: https://raw.githubusercontent.com/SUSEBrSalesEngineer/api-helm/main/book-api.png
 keywords:
