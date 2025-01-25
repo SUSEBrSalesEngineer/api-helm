@@ -10,8 +10,8 @@ spec:
   http:
     - route:
       - destination:
-          host: bookapi.prod.svc.cluster.local 
+          host: bookapi-service.prod.svc.cluster.local 
         weight: 20
       - destination:
-          host: bookapi.stage.svc.cluster.local
+          host: bookapi-service.stage.svc.cluster.local
         weight: 80
